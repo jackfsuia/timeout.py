@@ -1,5 +1,5 @@
 # timeout.py
-Timeout on a python function.
+timeout on a python function.
 
 ```python
 from timeout import timeout
