@@ -3,7 +3,7 @@ def wrapped_function(target_function, queue):
     result = target_function()
     queue.put(result)
 
-def run_with_timeout(target_function, timeout):
+def timeout(target_function, timeout):
     result_queue = multiprocessing.Queue()
 
     process = multiprocessing.Process(target=wrapped_function, args=(target_function, result_queue))
