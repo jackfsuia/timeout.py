@@ -1,6 +1,6 @@
 # timeout.py
 timeout on a python function.
-
+# Usage
 Import [timeout.py](timeout.py) of this repository, use it like:
 ```python
 from timeout import timeout
